@@ -14,7 +14,6 @@ import { AppProvider as PolarisProvider } from "@shopify/polaris";
 import translations from "@shopify/polaris/locales/en.json";
 import "@shopify/polaris/build/esm/styles.css";
 
-import { HomePage } from "./components/HomePage";
 import { MainPage } from "./components/MainPage"
 
 export default function App() {
