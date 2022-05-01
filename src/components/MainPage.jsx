@@ -1,4 +1,4 @@
-import { Page, Layout, Card } from "@shopify/polaris";
+import { Page, Layout, Card, Tag, Stack } from "@shopify/polaris";
 
 export function MainPage() {
   return (
@@ -7,7 +7,10 @@ export function MainPage() {
         <Layout.Section oneHalf>
           <Card title="Online store dashboard">
             <Card.Section>
-              <p>View a summary of your online store’s performance.</p>
+              <Stack>
+                <Tag onRemove={() => console.log("Tag Clicked!")}>Test Tag</Tag>
+                <Tag onRemove={() => console.log("Tag Clicked!")}>Test Tag</Tag>
+              </Stack>
             </Card.Section>
             <Card.Section>
               <p>
