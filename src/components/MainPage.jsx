@@ -1,4 +1,4 @@
-import { Page, Layout, Card, Tag, Stack } from "@shopify/polaris";
+import { Page, Layout, Card, Tag, Stack, TextField } from "@shopify/polaris";
 
 export function MainPage() {
   return (
@@ -13,10 +13,7 @@ export function MainPage() {
               </Stack>
             </Card.Section>
             <Card.Section>
-              <p>
-                View a summary of your online store’s performance, including
-                sales, visitors, top products, and referrals.
-              </p>
+              <TextField autoComplete="off" />
             </Card.Section>
           </Card>
         </Layout.Section>
